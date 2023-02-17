@@ -22,6 +22,7 @@ function Login() {
           placeholder="Your Email"
           onChange={(e) => setEmail(e.target.value)}
           value={email}
+          required
         />
       </label>
       <label>
@@ -31,10 +32,11 @@ function Login() {
           placeholder="Your Password"
           onChange={(e) => setPassword(e.target.value)}
           value={password}
+          required
         />
       </label>
 
-      <button className="btn">Submit</button>
+      <button className="btn">Login</button>
     </form>
   )
 }

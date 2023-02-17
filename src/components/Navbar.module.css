@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,400;0,600;0,800;1,300;1,400&family=Pacifico&family=Raleway:wght@300;400;600&family=Yellowtail&display=swap');
+
+.navbar {
+  width: 100%;
+  background: pink;
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+  max-width: 960px;
+  align-items: center;
+}
+
+.title {
+  margin-right: auto;
+  font-weight: bolder;
+  letter-spacing: .2em;
+  font-size: 1.4em;
+  font-family: Yellowtail;
+}
+
+.navbar button, .navbar a {
+  margin-left: 16px;
+}
+
+.navbar a {
+  color: #333;
+  text-decoration: none;
+}

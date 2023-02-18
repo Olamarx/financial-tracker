@@ -9,7 +9,12 @@
   font-family: lato;
 }
 
+.signup-form p {
+  font-family: lato;
+}
+
 .signup-form label {
+  font-family: lato;
   display: block;
   margin: 30px auto;
 }

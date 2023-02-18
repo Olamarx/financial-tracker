@@ -10,6 +10,7 @@
 }
 
 .login-form label {
+  font-family: lato;
   display: block;
   margin: 30px auto;
 }

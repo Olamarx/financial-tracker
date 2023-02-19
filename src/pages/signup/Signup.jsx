@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import styles from './Signup.module.css'
-import { useSignup } from '../../components/hook/useSignup'
+import { useSignup } from '../../hook/useSignup'
 
 function Signup() {
   const [email, setEmail] = useState('')

@@ -9,7 +9,6 @@ function Signup() {
   const [username, setUsername] = useState('')
   const { error, isPending, signup } = useSignup()
 
-
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log(username, password, email);

@@ -1,14 +1,16 @@
 import { Routes, Route } from "react-router-dom";
-
+import { useAuthContext } from "./hook/useAuthContext";
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import Signup from "./pages/signup/Signup";
 import Navbar from "./components/Navbar";
 
 function App() {
+  const { authIsReady } = useAuthContext()
   return (
     <>
-    <Navbar />
+    { authIsReady && (<>
+      <Navbar />
     <Routes>
       <Route
       path="/login"
@@ -26,6 +28,8 @@ function App() {
         element={(<Signup/>)}
       />
     </Routes>
+    </>)
+    }
     </>
   );
 }

@@ -24,7 +24,7 @@ function Navbar() {
           )}
           {user  && (
             <>
-            <li> Hello, { user.displayName }</li>
+            <li className={styles.name}> Hello, { user.displayName }</li>
             <li>
             <button className="btn" onClick={logout}>
             Logout

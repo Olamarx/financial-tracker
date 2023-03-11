@@ -77,6 +77,7 @@ Clone this repository to your desired folder:
 cd my-folder
 
 git clone https://github.com/Olamarx/financial-tracker.git
+<br/>
 Example commands:
 
 ```sh

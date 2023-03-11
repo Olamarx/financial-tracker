@@ -11,7 +11,6 @@ function Login() {
     login(email, password);
   }
 
- console.log(isPending)
   return (
     <form className={styles['login-form']}
     onSubmit={handleSubmit}

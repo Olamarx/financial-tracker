@@ -76,7 +76,7 @@ Clone this repository to your desired folder:
 
 cd my-folder
 
-git clone git@github.com:Lancelot-SO/space-travellers-hub.git
+git clone https://github.com/Olamarx/financial-tracker.git
 Example commands:
 
 ```sh

@@ -9,8 +9,10 @@ function TransactionForm({uid}) {
   const handleSubmit = (e) => {
     e.preventDefault()
     addDocument({name, amount, uid});
+      if (response || !response) {
       setName('')
       setAmount('')
+      }
   }
 
   return (

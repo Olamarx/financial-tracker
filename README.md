@@ -165,4 +165,4 @@ We would like to thank my parents and supporters for their support.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
